@@ -4,7 +4,7 @@
 
 # Live Demo
 
-[Click here](https://aldemeery.github.io/spacejumper)
+[Live Demo](https://pedantic-beaver-d67d0c.netlify.app/)
 
 # About
 

@@ -1,6 +1,6 @@
 # Jumper
 
-- RPG game for microverse capstone project.
+- This is a platform game for the microverse capstone project.
 
 # Live Demo
 

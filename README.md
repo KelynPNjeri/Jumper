@@ -1,75 +1,146 @@
-# Jumper
+# Jumper Platform Game
+A JavaScript adventure game built with Phaser 3
 
-- This is a platform game for the microverse capstone project.
+![screenshot](./screenshots/gameplay.png)
+![screenshot2](./screenshots/game.png)
 
-# Live Demo
 
+## Table of Contents
+
+* [Game Instructions](#game-instructions)
+* [Live Demo](#demo)
+* [Built With](#built-with)
+* [Testing](#testing)
+* [Design Credits](#design-credits)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
+* [Author](#author)
+* [License](#license)
+
+## Game Instructions
+
+### Prerequisites
+
+- Using NPM package and JavaScript knoledge to build and test the game.
+
+### Installation
+
+- Fork this repository into your own account
+- Run npm install to run all of the dependencies into your local repository
+- Run the command 'npm start' to start the game running into your local machine.
+- A new tab in your browser should be open to allow you to access the game.
+
+### Game Concept
+The main objective of this game is for the avatar to collect as many treats as possible as the avoid being hit by the bombs. In version 2 of this game, I will implement boosters and special skills for tha avatar plus new levels.
+
+
+### Main Objective
+
+Collect as many treats as possible and try as hard as you can not to get hit by a bomb while you do that.
+
+### How to play
+
+- To move the avatar you should use the 'left' and 'right' arrow keys on your keyboard.
+- Jump by pressing the 'up' arrow on your keyboard.
+
+#### Avatar(Player)
+
+![Avatar](./assets/dude.png)
+
+- Avatar is the player in this game. They can collect treats and evade bombs.
+
+
+#### Bomb
+
+![Bomb](./assets/bomb.png)
+
+- When a bomb comes into collision with the player, it destroys them hence ending the game.
+
+
+## Demo
 [Live Demo](https://pedantic-beaver-d67d0c.netlify.app/)
 
-# About
+## Game Development Stages
 
-A simple RPG game built using [Phaser](https://phaser.io/) V3
+- **Day 1**
+**Learn Phaser 3 module**
+ On Day 1, I took a tutorial on Codecademy to learn more about Phaser. After which I went throught the Phaser documentation to get a deeper insight on Phaser. I built a small game to practice what I had learned.
 
-# How to play
+- **Day 2**
+**Game Design**
+ Pulish the game concept, define the characters and main objective. Look for assets to implement all of the game scenes. Define the game rules and logic. Plan the development of the game in specific chunks of user stories converted to technical tasks to be done. 
+  - Game Concept (Done)
+  - Characters (Done)
+  - Main Objective (Done)
+  - Define Game Logic (Done)
+  - Implementation Plan (Done)
+  - Define Assets (Done)
 
-- Use the Arrow keys for movement.
-- `Right` to move right, `Left` to move left, and `Up` to jump.
-- Jump between the platforms to collect the stars.
-- Once you have collected all the stars, a new group of them will fall from the sky
-- With every new stars collection there will be one bomb.
-- You lose once you get hit by a bomb.
-- Try to get the highest score you can achieve, to get your name showing up in the leaderboard.
+- **Day 3**
+**Scene Development**
+  - Created the GitHub repo.
+  - Setup CI/CD for the application.
+  - Read through the design docs again.
+  - Wrote tests.
 
-# Local installation
+- **Day 4**
+**Game Development**
+  - Started building Jumper from my Mockups.
+  - Made sure each test passed and deployment worked
 
-```bash
-$ git clone https://github.com/KelynPNjeri/Jumper.git
-$ cd Jumper
-$ npm install
-$ npm start
-```
+- **Day 5**
+**Deployment**
+  - Run tests (Done)
+  - Deploy to netlify (Done)
 
-Open `http://localhost:8080` in your browser and start playing.
+### Retrospective:
 
-# Building the Game
+After developing the game and looking back at the initial plan, conceived on the second day these are some reflections about my development.
 
-To build the game simply run:
+What went wrong?
+Overall, I assume Phaser would be easier. However, it's documentation is confusing (mixed between different versions) and not cohesive enough. This meant a lot of time was invested in googling how to work around specific things, such as animation and tweens. This was not easy at all and very time consuming. The provided examples and tutorial didn't seem enough. 
 
-```bash
-$ npm run build
-```
+What went well?
+Testing and building Jumper went on smoother that I had initially anticipated. Incorporating Leaderboard API was also pretty quick hence cutting my development time to just a few hours.
 
-# Testing
-
-The project is testing using [Jest](https://jestjs.io/)
-To run the tests:
-
-```bash
-$ npm test
-```
-
-# Built With
-
-- Phaser
+## Built With
+- Javascript
+- HTML
+- Phaser 3
 - Webpack
 - Babel
+- Leaderboard API
+- JEST testing
+- Netlify
+- ESlint and Stylelint as linters
+
+## Testing
+
+- Run tests by running: `npm test` on your CLI.
 
 
-## Deployed on GitHub Pages
+## Contributing
 
-Deployed on [GitHub Pages](https://pages.github.com/)
+Contributions, issues and feature requests are welcome!
 
-## Authors
+You can do it on [issues page](issues/).
+
+## Acknowledgments
+
+Special thanks to Microverse community:
+- Ragdolls team
+- Microverse Team
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 
 👤 **Kelyn Paul Njeri**
 
 - Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
 - LinkedIn: [KelynNjeri](https://www.linkedin.com/in/kelyn-paul/)
 
-## 🤝 Contributing
+## License
 
-Contributions, issues, and feature requests are welcome!
-
-## 📝 License
-
-This project is [MIT](LICENSE) licensed.
+MIT standard license.
